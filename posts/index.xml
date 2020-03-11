@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2020 17:21:57 +0100</lastBuildDate>
     
 	<atom:link href="https://amospagin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Advantages of programmatic statistical computing</title>
+      <link>https://amospagin.github.io/posts/reminder_r/</link>
+      <pubDate>Mon, 17 Feb 2020 17:21:57 +0100</pubDate>
+      
+      <guid>https://amospagin.github.io/posts/reminder_r/</guid>
+      <description>I was recently reminded of why taking the time to learn a programming language for statistical computing (e.g., R) is such a valuable investment.</description>
+    </item>
     
     <item>
       <title>PsychRandom.py: A program for randomizing participants to treatment groups</title>
