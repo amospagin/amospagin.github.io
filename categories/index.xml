@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Amos Pagin</title>
+    <link>http://amospagin.github.io/categories/</link>
+    <description>Recent content in Categories on Amos Pagin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amospagin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>psychrandom python</title>
-      <link>http://example.org/categories/psychrandom-python/</link>
+      <link>http://amospagin.github.io/categories/psychrandom-python/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/psychrandom-python/</guid>
+      <guid>http://amospagin.github.io/categories/psychrandom-python/</guid>
       <description></description>
     </item>
     

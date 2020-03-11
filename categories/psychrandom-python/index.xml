@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>psychrandom python on My New Hugo Site</title>
-    <link>http://example.org/categories/psychrandom-python/</link>
-    <description>Recent content in psychrandom python on My New Hugo Site</description>
+    <title>psychrandom python on Amos Pagin</title>
+    <link>http://amospagin.github.io/categories/psychrandom-python/</link>
+    <description>Recent content in psychrandom python on Amos Pagin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amospagin.github.io/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>psychRandom: Ett program för randomisering av försökspersoner till betingelser</title>
-      <link>http://example.org/posts/psychrandom/</link>
+      <link>http://amospagin.github.io/posts/psychrandom/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/psychrandom/</guid>
-      <description>Ett äkta beteendeexperiment kräver, per definition, att experimentets försökspersoner randomiseras till två eller fler betingelser (t.ex. till en experimentgrupp och en kontrollgrupp). Om experimentet genomförs på en dator kan randomisering ibland ställas in i det datorprogram som används vid själva datainsamlingen, men hur går man tillväga när man inte använder ett sådant program?
-Det finns förstås många lösningar på problemet (somliga bra och somliga dåliga), men jag tyckte ändå att det saknades ett enkelt, dedikerat verktyg för randomiseringsuppgifter av just detta slag.</description>
+      <guid>http://amospagin.github.io/posts/psychrandom/</guid>
+      <description>Ett äkta beteendeexperiment kräver, per definition, att experimentets försökspersoner randomiserats till två eller fler betingelser (t.ex. till en experimentgrupp och en kontrollgrupp). För att öva lite på mina Pythonkunskaper har jag skrivit ett program som automatiskt genomför en sådan randomisering:
+psychRandom tar emot input från användaren gällande antalet försökspersoner och betingelser, och utför sedan en randomisering som printas ut i .csv-format. Programmet har också stöd för balanserade designer (dvs. designer som kräver lika många försökspersoner i varje betingelse).</description>
     </item>
     
   </channel>

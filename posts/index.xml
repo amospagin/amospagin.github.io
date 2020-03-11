@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Amos Pagin</title>
+    <link>http://amospagin.github.io/posts/</link>
+    <description>Recent content in Posts on Amos Pagin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2020 12:25:17 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amospagin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
-      <pubDate>Wed, 11 Mar 2020 12:25:17 +0100</pubDate>
-      
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
     
     <item>
       <title>psychRandom: Ett program för randomisering av försökspersoner till betingelser</title>
-      <link>http://example.org/posts/psychrandom/</link>
+      <link>http://amospagin.github.io/posts/psychrandom/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/psychrandom/</guid>
-      <description>Ett äkta beteendeexperiment kräver, per definition, att experimentets försökspersoner randomiseras till två eller fler betingelser (t.ex. till en experimentgrupp och en kontrollgrupp). Om experimentet genomförs på en dator kan randomisering ibland ställas in i det datorprogram som används vid själva datainsamlingen, men hur går man tillväga när man inte använder ett sådant program?
-Det finns förstås många lösningar på problemet (somliga bra och somliga dåliga), men jag tyckte ändå att det saknades ett enkelt, dedikerat verktyg för randomiseringsuppgifter av just detta slag.</description>
+      <guid>http://amospagin.github.io/posts/psychrandom/</guid>
+      <description>Ett äkta beteendeexperiment kräver, per definition, att experimentets försökspersoner randomiserats till två eller fler betingelser (t.ex. till en experimentgrupp och en kontrollgrupp). För att öva lite på mina Pythonkunskaper har jag skrivit ett program som automatiskt genomför en sådan randomisering:
+psychRandom tar emot input från användaren gällande antalet försökspersoner och betingelser, och utför sedan en randomisering som printas ut i .csv-format. Programmet har också stöd för balanserade designer (dvs. designer som kräver lika många försökspersoner i varje betingelse).</description>
     </item>
     
   </channel>
