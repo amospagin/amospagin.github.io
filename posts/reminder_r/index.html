@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="markdown">
-			<p>I was recently reminded of why taking the time to learn a programming language for statistical computing (e.g., R) is such a valuable investment. I had completed the data collection phase for a study, and realized that I wanted to plot the data for each participant individually. Because each participant (n = 80) had completed three separate experimental phases, this meant that I would need to produce $80 \times 3 = 240$ separate plots.</p>
+			<p>I was recently reminded of why taking the time to learn a programming language for statistical computing (e.g., R) is such a valuable investment. I had completed the data collection phase for a study, and realized that I wanted to plot the data for each participant individually. Because each participant (n = 80) had completed three separate experimental phases, this meant that I would need to produce 80 * 3 = 240 separate plots.</p>
 <p>That&rsquo;s a lot of plotting.</p>
 <p>Thankfully, this was pretty easy to accomplish/automate in R. I created an RMarkdown document, and wrote a function specifying the parameters of the plots (e.g., label titles, axes, and so on). Then I wrote a for-loop that applied the function to all instances in the data file, and processed the output using knitr and pandoc. The result was a 24-page document with neatly ordered plots. Even better: When two additional participants completed the study, all I had to do was run the script again. The first page of the output looks like this:</p>
 <p><img src="/img/iplots.jpg" alt="Multiplot"></p>
