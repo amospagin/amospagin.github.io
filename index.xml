@@ -22,12 +22,12 @@
     </item>
     
     <item>
-      <title>Merging PDF files on OSX</title>
+      <title>Merging PDF files on MacOS</title>
       <link>https://amospagin.github.io/posts/merging_pdfs/</link>
       <pubDate>Sat, 22 Feb 2020 18:32:35 +0100</pubDate>
       
       <guid>https://amospagin.github.io/posts/merging_pdfs/</guid>
-      <description>I discovered a neat trick for merging pdf-files in OSX. There is a somewhat obscure built-in Python-script that can accomplish this easily using the terminal.</description>
+      <description>I discovered a neat trick for merging PDF files in MacOS. There is a somewhat obscure native Python-script that can accomplish this using the terminal.</description>
     </item>
     
     <item>

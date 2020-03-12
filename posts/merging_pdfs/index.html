@@ -2,16 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Merging PDF files on OSX - Amos Pagin</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Merging PDF files on OSX" />
-<meta property="og:description" content="I discovered a neat trick for merging pdf-files in OSX. There is a somewhat obscure built-in Python-script that can accomplish this easily using the terminal." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Merging PDF files on MacOS - Amos Pagin</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Merging PDF files on MacOS" />
+<meta property="og:description" content="I discovered a neat trick for merging PDF files in MacOS. There is a somewhat obscure native Python-script that can accomplish this using the terminal." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://amospagin.github.io/posts/merging_pdfs/" />
 <meta property="article:published_time" content="2020-02-22T18:32:35+01:00" />
 <meta property="article:modified_time" content="2020-02-22T18:32:35+01:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Merging PDF files on OSX"/>
-<meta name="twitter:description" content="I discovered a neat trick for merging pdf-files in OSX. There is a somewhat obscure built-in Python-script that can accomplish this easily using the terminal."/>
+<meta name="twitter:title" content="Merging PDF files on MacOS"/>
+<meta name="twitter:description" content="I discovered a neat trick for merging PDF files in MacOS. There is a somewhat obscure native Python-script that can accomplish this using the terminal."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://amospagin.github.io/css/normalize.css" />
@@ -56,16 +56,16 @@
 
 
 		<div class="post-header">
-			<h1 class="title">Merging PDF files on OSX</h1>
+			<h1 class="title">Merging PDF files on MacOS</h1>
 			<div class="meta">Posted at &mdash; Feb 22, 2020</div>
 		</div>
 
 		<div class="markdown">
-			<p>I discovered a neat trick for merging <code>pdf</code>-files in OSX. There is a somewhat obscure built-in Python-script that can accomplish this easily using the terminal. It&rsquo;s accessible via the following command:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#2aa198">&#34;/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py&#34;</span> -o /PATH/TO/MERGED.pdf /PATH/TO/FIRST.pdf /PATH/TO/SECOND.pdf
-</code></pre></div><p>Of course, the path to <code>join.py</code> is difficult to remember, but one can solve that problem by creating a alias in <code>~\.bash_profile</code>. For instance:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#b58900">alias</span> <span style="color:#268bd2">mergepdf</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py --output all.pdf *.pdf&#34;</span>
-</code></pre></div><p>With this, one can simply <code>cd</code> into the directory containing the <code>pdf</code>-files that need to be merged, and then run <code>mergepdf</code> in the terminal. This merges all the <code>pdf</code>-files in the current directory into the new file <code>all.pdf</code>. Naturally, the operation is non-destructive, so the original files will remain intact.</p>
+			<p>I discovered a neat trick for merging PDF files in MacOS. There is a somewhat obscure native Python-script that can accomplish this using the terminal. The script can be accessed via the following command:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#2aa198">&#34;/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py&#34;</span> -o /PATH/TO/MERGED.PDF /PATH/TO/FIRST.PDF /PATH/TO/SECOND.PDF
+</code></pre></div><p>This takes the two PDF files <code>FIRST.pdf</code> and <code>SECOND.pdf</code> and combines them into a new file called <code>MERGED.pdf</code>. There isn&rsquo;t much else to it. Of course, the path to <code>join.py</code> is difficult to remember, but one can solve that problem by creating an alias in <code>~\.bash_profile</code>. For instance:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#b58900">alias</span> <span style="color:#268bd2">mergepdf</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py --output merged.PDF *.PDF&#34;</span>
+</code></pre></div><p>With this, one can simply <code>cd</code> into the directory containing the PDF files that need to be merged, and then run the command <code>mergepdf</code> in the terminal. This merges the PDF files in the current directory into the new file <code>merged.pdf</code>. Naturally, the operation is non-destructive, so the original files will remain intact.</p>
 
 		</div>
 
