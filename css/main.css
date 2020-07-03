@@ -2,8 +2,8 @@
  * Red color: #a00 */
 
 body {
-    font-family: "Crimson text"; 
-    font-family: "ubuntu", sans-serif; 
+    font-family: "Crimson text";
+    font-family: "Myriad Pro", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
@@ -93,7 +93,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: raleway,sans-serif;
+    font-family: Linux Libertine,sans-serif;
     line-height: 1.2;
     color: #333;
     font-weight: 200;
