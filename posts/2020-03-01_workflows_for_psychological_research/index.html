@@ -1,86 +1,348 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Workflows for psychological research - Amos Pagin</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Workflows for psychological research" />
-<meta property="og:description" content="I&rsquo;ve been thinking about workflows for writing scientific documents (e.g., research papers, essays, and so on). It seems to me that the sanest way to go about these things would be to do one&rsquo;s writing in RMarkdown documents, with external ." />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Workflows for psychological research </title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Workflows for psychological research" />
+<meta property="og:description" content="I&rsquo;ve been thinking about workflows for writing scientific documents (e." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://amospagin.github.io/posts/2020-03-01_workflows_for_psychological_research/" />
+<meta property="og:url" content="https://example.com/posts/2020-03-01_workflows_for_psychological_research/" />
 <meta property="article:published_time" content="2020-03-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-01T00:00:00+00:00" />
-<meta name="twitter:card" content="summary"/>
+
+  <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Workflows for psychological research"/>
-<meta name="twitter:description" content="I&rsquo;ve been thinking about workflows for writing scientific documents (e.g., research papers, essays, and so on). It seems to me that the sanest way to go about these things would be to do one&rsquo;s writing in RMarkdown documents, with external ."/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+<meta name="twitter:description" content="I&rsquo;ve been thinking about workflows for writing scientific documents (e."/>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="https://amospagin.github.io/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://amospagin.github.io/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="https://amospagin.github.io/css/custom.css" />
-	
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://example.com/css/style-classic.css">
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
 
-	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-	<script src="https://amospagin.github.io/js/main.js"></script>
-	<script src="https://amospagin.github.io/js/abc.js"></script>
-	<script src="https://amospagin.github.io/js/xyz.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
+<link rel="icon" type="image/png" href="https://example.com/images/favicon.ico" />
+
+  
+  
+  
 </head>
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
 
-<body>
-	<div class="container wrapper post">
-		<div class="header">
-	<h1 class="site-title"><a href="https://amospagin.github.io/">Amos Pagin</a> </h1>
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/research">Research</a></li>
+         
+        <li><a href="/publications">Publications</a></li>
+         
+        <li><a href="/cv.pdf">CV</a></li>
+         
+        <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://example.com/posts/merging_pdfs/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&text=Workflows%20for%20psychological%20research">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&is_video=false&description=Workflows%20for%20psychological%20research">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Workflows%20for%20psychological%20research&body=Check out this article: https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&name=Workflows%20for%20psychological%20research&description=I%26rsquo%3bve%20been%20thinking%20about%20workflows%20for%20writing%20scientific%20documents%20%28e.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&t=Workflows%20for%20psychological%20research">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
 
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"><a href="https://twitter.com/amospagin" title="Twitter"><i data-feather="twitter"></i></a><a href="mailto:amos.pagin@gmail.com" title="Email"><i data-feather="mail"></i></a><a href="https://www.linkedin.com/in/amospagin/" title="LinkedIn"><i data-feather="linkedin"></i></a><a href="https://github.com/amospagin" title="Github"><i data-feather="github"></i></a></ul>
-		</nav>
-	</div>
-
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="/research">Research</a>
-			</li>
-			
-			<li>
-				<a href="/cv.pdf">CV</a>
-			</li>
-			
-			<li>
-				<a href="/posts">Blog</a>
-			</li>
-			
-		</ul>
-	</nav>
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
 </div>
 
-		<div class="post-header">
-			<h2 class="title">Workflows for psychological research</h2>
-			<div class="meta">Publicerat: 1 Mar, 2020</div>
-		</div>
 
-		<div class="markdown">
-			<p>I&rsquo;ve been thinking about workflows for writing scientific documents (e.g., research papers, essays, and so on). It seems to me that the sanest way to go about these things would be to do one&rsquo;s writing in RMarkdown documents, with external .bibtex files storing the references (and git handling version control). Everything gets processed in knitr and pandoc, and out comes a PDF file and a .docx file formatted according to APA-standards. The entire project (containing the raw data, plots, etc.) could be hosted on GitHub, OSF, or on some other service. This would keep things tidy, transparent, and reproducible. Importantly, it would allow one to focus on the writing, and not on wrestling with the formatting.</p>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Workflows for psychological research
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2020-03-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-01</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>I&rsquo;ve been thinking about workflows for writing scientific documents (e.g., research papers, essays, and so on). It seems to me that the sanest way to go about these things would be to do one&rsquo;s writing in RMarkdown documents, with external .bibtex files storing the references (and git handling version control). Everything gets processed in knitr and pandoc, and out comes a PDF file and a .docx file formatted according to APA-standards. The entire project (containing the raw data, plots, etc.) could be hosted on GitHub, OSF, or on some other service. This would keep things tidy, transparent, and reproducible. Importantly, it would allow one to focus on the writing, and not on wrestling with the formatting.</p>
 <p>The trouble is, of course, that a workflow like this takes a while to set up in order to get it right. The setup also requires quite a bit of familiarity with the underlying technologies, making it inaccessible for sane people who do not spend their free time reading technical documentation.</p>
 <p>Another option, of course, would be to just go back to using typewriters, and not worry about compilation errors or file encodings. I&rsquo;m half-joking. I think.</p>
 
-		</div>
+    </div>
+  </article>
 
-		<div class="post-tags">
-			
-				
-			
-		</div>
-		</div>
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div> Amos Pagin |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
-	</nav>
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/research">Research</a></li>
+         
+          <li><a href="/publications">Publications</a></li>
+         
+          <li><a href="/cv.pdf">CV</a></li>
+         
+          <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&text=Workflows%20for%20psychological%20research">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&is_video=false&description=Workflows%20for%20psychological%20research">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Workflows%20for%20psychological%20research&body=Check out this article: https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&title=Workflows%20for%20psychological%20research">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&name=Workflows%20for%20psychological%20research&description=I%26rsquo%3bve%20been%20thinking%20about%20workflows%20for%20writing%20scientific%20documents%20%28e.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fexample.com%2fposts%2f2020-03-01_workflows_for_psychological_research%2f&t=Workflows%20for%20psychological%20research">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
 </div>
 
 
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2020  Amos Pagin 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/research">Research</a></li>
+         
+        <li><a href="/publications">Publications</a></li>
+         
+        <li><a href="/cv.pdf">CV</a></li>
+         
+        <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
 
-<script>feather.replace()</script>
+
+  </div>
 </body>
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+  
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 </html>
