@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amos Pagin</title>
+    <title>Cactus theme example</title>
     <link>https://example.com/</link>
-    <description>Recent content on Amos Pagin</description>
+    <description>Recent content on Cactus theme example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Amos Pagin</copyright>
+    <copyright>You</copyright>
     <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/posts/2020-03-01_workflows_for_psychological_research/</guid>
-      <description>I&amp;rsquo;ve been thinking about workflows for writing scientific documents (e.</description>
+      <description>I&amp;rsquo;ve been thinking about workflows for writing scientific documents (e.g., research papers, essays, and so on). It seems to me that the sanest way to go about these things would be to do one&amp;rsquo;s writing in RMarkdown documents, with external .bibtex files storing the references (and git handling version control). Everything gets processed in knitr and pandoc, and out comes a PDF file and a .docx file formatted according to APA-standards.</description>
     </item>
     
     <item>
@@ -27,7 +27,8 @@
       <pubDate>Sat, 22 Feb 2020 18:32:35 +0100</pubDate>
       
       <guid>https://example.com/posts/merging_pdfs/</guid>
-      <description>I discovered a neat trick for merging PDF files in MacOS.</description>
+      <description>I discovered a neat trick for merging PDF files in MacOS. There is a somewhat obscure native Python-script that can accomplish this using the terminal. The script can be accessed via the following command:
+&amp;#34;/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py&amp;#34; -o /PATH/TO/MERGED.PDF /PATH/TO/FIRST.PDF /PATH/TO/SECOND.PDF This takes the two PDF files FIRST.pdf and SECOND.pdf and combines them into a new file called MERGED.pdf. There isn&amp;rsquo;t much else to it. Of course, the path to join.</description>
     </item>
     
     <item>
@@ -36,7 +37,7 @@
       <pubDate>Mon, 17 Feb 2020 17:21:57 +0100</pubDate>
       
       <guid>https://example.com/posts/advantages_of_programmatic_statistical_computing/</guid>
-      <description>I was recently reminded of why taking the time to learn a programming language for statistical computing (e.</description>
+      <description>I was recently reminded of why taking the time to learn a programming language for statistical computing (e.g., R) is such a valuable investment. I had completed the data collection phase for a study, and realized that I wanted to plot the data for each participant individually. Because each participant (n = 80) had completed three separate experimental phases, this meant that I would need to produce 80 * 3 = 240 separate plots.</description>
     </item>
     
     <item>
@@ -45,7 +46,8 @@
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/posts/psychrandom/</guid>
-      <description>In order to brush up on my Python skills, I decided to write a small utility program that randomizes participants to treatment groups for psychology experiments.</description>
+      <description>In order to brush up on my Python skills, I decided to write a small utility program that randomizes participants to treatment groups for psychology experiments. Not really groundbreaking work, but hey, it might prove useful at some point.
+The program is called PsychRandom.py, and can be run either from a GUI or from the command line. The user specifies the number of participants in the experiment, as well as the number of treatment groups and whether or not a balanced design is required (i.</description>
     </item>
     
     <item>
@@ -54,7 +56,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/publications/</guid>
-      <description>Journal articles  Pagin, A.</description>
+      <description>Journal articles  Pagin, A. (2019). Exploring the Conjunction Fallacy in Probability Judgment: Conversational Implicature or Nested Sets?. Journal of European Psychology Students, 10(2). / PDF  </description>
     </item>
     
     <item>
