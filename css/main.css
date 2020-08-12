@@ -1,17 +1,19 @@
-/* Blue color: #002F5F
+/* Blue color1: #0047ab
+   Blue color2: #002F5F
  * Red color: #a00 */
 
+
 body {
-    font-family: "Crimson text";
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    color: #333;
-    line-height: 1.6;
+    color: #34495e;
+    line-height: 1.5;
     font-size: 16px;
-}
+    border-top: 3px solid #0047ab;
+  }
 
 a, a:hover {
-    color: #002F5F;
+    color: #0047ab;
     text-decoration: none;
     word-break: break-word;
 }
@@ -70,7 +72,7 @@ blockquote {
     font-size: 1.4rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
-    border-color: #002F5F;
+    border-color: #0047ab;
     padding-left: 20px;
 }
 
@@ -84,7 +86,7 @@ blockquote em {
 }
 
 a,a:hover {
-    color: #002F5F;
+    color: #0047ab;
     text-decoration: none
 }
 
@@ -93,7 +95,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Linux Libertine,sans-serif;
+    font-family: "Crimson Text";
     line-height: 1.2;
     color: #333;
     font-weight: 200;
@@ -254,7 +256,7 @@ ul {
     padding: 0;
     border: none;
     min-width: 50px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .header .site-description nav ul svg {
@@ -300,7 +302,7 @@ ul {
 }
 
 .post .draft-label {
-    color: #002F5F;
+    color: #0047ab;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -315,10 +317,10 @@ ul {
 
 .post-tags .tags a {
     display: inline-block;
-    border: 1px solid #002F5F;
+    border: 1px solid #0047ab;
     border-radius: 4px;
     padding: 0px 6px;
-    color: #002F5F;
+    color: #0047ab;
     line-height: 20px;
     font-size: 12px;
     text-decoration: none;
