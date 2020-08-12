@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>psychrandom python on Cactus theme example</title>
-    <link>https://example.com/categories/psychrandom-python/</link>
+    <link>https://amospagin.github.io/categories/psychrandom-python/</link>
     <description>Recent content in psychrandom python on Cactus theme example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amospagin.github.io/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PsychRandom.py: A program for randomizing participants to treatment groups</title>
-      <link>https://example.com/posts/psychrandom/</link>
+      <link>https://amospagin.github.io/posts/psychrandom/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/psychrandom/</guid>
+      <guid>https://amospagin.github.io/posts/psychrandom/</guid>
       <description>In order to brush up on my Python skills, I decided to write a small utility program that randomizes participants to treatment groups for psychology experiments. Not really groundbreaking work, but hey, it might prove useful at some point.
 The program is called PsychRandom.py, and can be run either from a GUI or from the command line. The user specifies the number of participants in the experiment, as well as the number of treatment groups and whether or not a balanced design is required (i.</description>
     </item>
