@@ -14,10 +14,10 @@
     
     <item>
       <title>PsychRandom.py: A program for randomizing participants to treatment groups</title>
-      <link>https://amospagin.github.io/posts/psychrandom/</link>
+      <link>https://amospagin.github.io/posts/2020-02-09_psychrandom/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://amospagin.github.io/posts/psychrandom/</guid>
+      <guid>https://amospagin.github.io/posts/2020-02-09_psychrandom/</guid>
       <description>In order to brush up on my Python skills, I decided to write a small utility program that randomizes participants to treatment groups for psychology experiments.</description>
     </item>
     
