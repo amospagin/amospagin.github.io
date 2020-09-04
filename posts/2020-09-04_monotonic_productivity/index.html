@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Monotonic vs. non-monotonic productivity increases </title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Monotonic vs. non-monotonic productivity increases" />
+<meta property="og:description" content="I sometimes feel like the productivity boosts promised by Emacs/Vim evangelists is something of a red herring: I find myself spending a lot of time tweaking my configuration files, or researching why a feature or function does not work as I expect it to." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://amospagin.github.io/posts/2020-09-04_monotonic_productivity/" />
+<meta property="article:published_time" content="2020-09-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-04T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Monotonic vs. non-monotonic productivity increases"/>
+<meta name="twitter:description" content="I sometimes feel like the productivity boosts promised by Emacs/Vim evangelists is something of a red herring: I find myself spending a lot of time tweaking my configuration files, or researching why a feature or function does not work as I expect it to."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://amospagin.github.io/css/style-classic.css">
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+
+  
+  
+  
+</head>
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/research">Research</a></li>
+         
+        <li><a href="/publications">Publications</a></li>
+         
+        <li><a href="/cv.pdf">CV</a></li>
+         
+        <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://amospagin.github.io/posts/2020-08-25_punctuation/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&text=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&is_video=false&description=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Monotonic%20vs.%20non-monotonic%20productivity%20increases&body=Check out this article: https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&name=Monotonic%20vs.%20non-monotonic%20productivity%20increases&description=I%20sometimes%20feel%20like%20the%20productivity%20boosts%20promised%20by%20Emacs%2fVim%20evangelists%20is%20something%20of%20a%20red%20herring%3a%20I%20find%20myself%20spending%20a%20lot%20of%20time%20tweaking%20my%20configuration%20files%2c%20or%20researching%20why%20a%20feature%20or%20function%20does%20not%20work%20as%20I%20expect%20it%20to.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&t=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Monotonic vs. non-monotonic productivity increases
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2020-09-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-09-04</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>I sometimes feel like the productivity boosts promised by Emacs/Vim evangelists is something of a red herring: I find myself spending a lot of time tweaking my configuration files, or researching why a feature or function does not work as I expect it to. This is the antithesis of productivity for me: Instead of writing, I spend my time reading documentation.</p>
+<p>I like tools and hacks that make my life easier right away, even if the productivity boosts are very minor. I jokingly refer to such hacks as providing monotonic productivity increases: My day-to-day productivity will never decrease as a result of using them. For instance, I use a hotkey (<code>alt + space </code>) to move to an iTerm2 terminal window in macOS. From there, I can type <code>bib $ARG</code> and hit enter, which automatically opens a browser window, heads my institution&rsquo;s library website, and searches all available literature databases for <code>$ARG</code>. This extremely simple hack allows me to very quickly check whether a book or article that I&rsquo;m interested in is available via my university. Surprisingly convenient.  I&rsquo;d consider this to be a monotonic productivity increase (at least, I suppose, until the script someday breaks down for whatever idiotic reason).</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/research">Research</a></li>
+         
+          <li><a href="/publications">Publications</a></li>
+         
+          <li><a href="/cv.pdf">CV</a></li>
+         
+          <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&text=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&is_video=false&description=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Monotonic%20vs.%20non-monotonic%20productivity%20increases&body=Check out this article: https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&title=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&name=Monotonic%20vs.%20non-monotonic%20productivity%20increases&description=I%20sometimes%20feel%20like%20the%20productivity%20boosts%20promised%20by%20Emacs%2fVim%20evangelists%20is%20something%20of%20a%20red%20herring%3a%20I%20find%20myself%20spending%20a%20lot%20of%20time%20tweaking%20my%20configuration%20files%2c%20or%20researching%20why%20a%20feature%20or%20function%20does%20not%20work%20as%20I%20expect%20it%20to.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2famospagin.github.io%2fposts%2f2020-09-04_monotonic_productivity%2f&t=Monotonic%20vs.%20non-monotonic%20productivity%20increases">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2020  Amos Pagin 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/research">Research</a></li>
+         
+        <li><a href="/publications">Publications</a></li>
+         
+        <li><a href="/cv.pdf">CV</a></li>
+         
+        <li><a href="/posts">Blog/notebook</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+  
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+</html>

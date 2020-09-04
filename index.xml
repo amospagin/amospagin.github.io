@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Amos Pagin</copyright>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://amospagin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Monotonic vs. non-monotonic productivity increases</title>
+      <link>https://amospagin.github.io/posts/2020-09-04_monotonic_productivity/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://amospagin.github.io/posts/2020-09-04_monotonic_productivity/</guid>
+      <description>I sometimes feel like the productivity boosts promised by Emacs/Vim evangelists is something of a red herring: I find myself spending a lot of time tweaking my configuration files, or researching why a feature or function does not work as I expect it to.</description>
+    </item>
     
     <item>
       <title>Adding proper punctuation after page indexes in BibLatex</title>
