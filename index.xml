@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Amos Pagin</copyright>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://amospagin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Converting from .djvu to .pdf on macOS</title>
+      <link>https://amospagin.github.io/posts/2020-09-27_djvu_conversion/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://amospagin.github.io/posts/2020-09-27_djvu_conversion/</guid>
+      <description>Once in a while, I&amp;rsquo;ll encounter a document in djvu-format.</description>
+    </item>
+    
+    <item>
+      <title>Minor scribbles on Cronbach&#39;s alpha</title>
+      <link>https://amospagin.github.io/posts/2020-09-26_cronbachs_alpha/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://amospagin.github.io/posts/2020-09-26_cronbachs_alpha/</guid>
+      <description>Some minor scribbles on Cronbach&amp;rsquo;s alpha:</description>
+    </item>
     
     <item>
       <title>Monotonic vs. non-monotonic productivity increases</title>
