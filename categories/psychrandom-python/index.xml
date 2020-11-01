@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Amos Pagin</copyright>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://amospagin.github.io/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://amospagin.github.io/categories/psychrandom-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PsychRandom.py: A program for randomizing participants to treatment groups</title>
       <link>https://amospagin.github.io/posts/2020-02-09_psychrandom/</link>
