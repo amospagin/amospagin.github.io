@@ -1,84 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://amospagin.github.io/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-09-27_djvu_conversion/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-09-26_cronbachs_alpha/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-09-04_monotonic_productivity/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-08-25_punctuation/</loc>
     <lastmod>2020-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-08-25_beginnings/</loc>
     <lastmod>2020-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-03-01_workflows_for_psychological_research/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-02-22_merging_pdfs/</loc>
     <lastmod>2020-02-22T18:32:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-02-17_advantages_of_programmatic_statistical_computing/</loc>
     <lastmod>2020-02-17T17:21:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/categories/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/categories/psychrandom-python/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/posts/2020-02-09_psychrandom/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/publications/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/research/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://amospagin.github.io/tags/</loc>
   </url>
-  
 </urlset>
